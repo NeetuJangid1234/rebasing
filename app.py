@@ -12,3 +12,8 @@ def home():
 @app.route("/working")
 def woking():
     print("dkfjsldkfjldskf")
+
+
+@app.route("/login")
+def login():
+    print("sdkfjldkfjlskdfjljdlkfjsdlk")
