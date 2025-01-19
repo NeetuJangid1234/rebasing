@@ -14,5 +14,11 @@ def woking():
     print("dkfjsldkfjldskf")
 
 
+
+@app.route("/register")
+def register():
+    print("register views")
+    
+
 if __name__=="__main__":
     app.run()
