@@ -12,3 +12,7 @@ def home():
 @app.route("/working")
 def woking():
     print("dkfjsldkfjldskf")
+
+
+if __name__=="__main__":
+    app.run()
