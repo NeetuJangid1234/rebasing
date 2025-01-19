@@ -20,5 +20,9 @@ def register():
     print("register views")
     
 
+@app.route("/logout")
+def logout():
+    print("logout view")
+
 if __name__=="__main__":
     app.run()
