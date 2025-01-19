@@ -22,4 +22,8 @@ def login():
 @app.route("/login")
 def login():
     print("sdkfjldkfjlskdfjljdlkfjsdlk")
+
+@app.route("/login")
+def login():
+    print("sdkfjldkfjlskdfjljdlkfjsdlk")
     
